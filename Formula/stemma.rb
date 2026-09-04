@@ -1,28 +1,28 @@
 class Stemma < Formula
   desc "Deterministic, local-first compiler for coding-agent context"
   homepage "https://github.com/alexvinola/stemma-cli"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/alexvinola/stemma-cli/releases/download/v#{version}/stemma-darwin-arm64"
-      sha256 "0c5be3e3eaaa0c5bd64ed42f43ea61c730e1df1fbd7fb7007e1d2e87e3c5bddd"
+      sha256 "83506ebf7f0e0d2ee0375ae63c136fec4c46bedf3512b759bc4475b1e07845e7"
     end
     on_intel do
       url "https://github.com/alexvinola/stemma-cli/releases/download/v#{version}/stemma-darwin-amd64"
-      sha256 "184bc60787a99dbe91eae90f5db99ed1ce0f1335108d88dc5edf72895bd6fa8b"
+      sha256 "2ffc2c6fb312c522a6813eda758156df99dffb9d48099b07e658bb975eeba773"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/alexvinola/stemma-cli/releases/download/v#{version}/stemma-linux-arm64"
-      sha256 "774745d57f7cf9f348d13cae906920a86ce3fb5daa0a3eb7b8d030a8e57a5f38"
+      sha256 "39da93c8a4ebc6a1db3cb84c0f3456bac4d9f4d65efd7cd91af48f481fedcf51"
     end
     on_intel do
       url "https://github.com/alexvinola/stemma-cli/releases/download/v#{version}/stemma-linux-amd64"
-      sha256 "c49f9c122dccf8312ef30d121d111550fb39fa2cb2de442065ec4e35387efb04"
+      sha256 "898244fe35dc13f2ffb1e0aff485da751cc2aa69dedebea7b1bbf2369e0e08df"
     end
   end
 
